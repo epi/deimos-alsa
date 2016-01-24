@@ -1,0 +1,6 @@
+name "alsa-lib"
+description "Deimos Bindings for ALSA (Advanced Linux Sound Architecture) library."
+license "LGPL-2.1 or later"
+importPaths "."
+targetType "sourceLibrary"
+libs "asound" platform="posix"
