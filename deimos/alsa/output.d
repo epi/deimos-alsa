@@ -1,6 +1,6 @@
 module deimos.alsa.output;
 
-import core.sys.posix.sys.types : ssize_t;
+public import core.sys.posix.sys.types : ssize_t;
 import core.stdc.stdio : FILE;
 import core.stdc.stdarg : va_list;
 
